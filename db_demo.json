@@ -1,14 +1,17 @@
-{
-  "perfil_usuario": {
+[
+  {
+    "intent": "perfil_usuario",
     "descricao": "Informações gerais sobre o perfil dos empregados da Vale.",
     "etapas": [
       "O funcionário deve manter seus dados atualizados no sistema interno.",
       "Para alterações de cargo, é necessário comunicar o RH e o gestor direto.",
       "Documentos oficiais devem ser apresentados para atualizações cadastrais."
     ],
-    "prazo": "Atualizações devem ser feitas em até 5 dias úteis após mudança."
+    "prazo": "Atualizações devem ser feitas em até 5 dias úteis após mudança.",
+    "palavras_chave": ["perfil", "dados", "cadastro", "atualizar cadastro", "informações pessoais"]
   },
-  "solicitacao_ferias": {
+  {
+    "intent": "solicitacao_ferias",
     "descricao": "Processo para solicitar férias na empresa Vale.",
     "etapas": [
       "O empregado deve preencher o formulário de solicitação no sistema interno.",
@@ -16,9 +19,11 @@
       "O RH confirma a aprovação e agenda o período.",
       "O empregado recebe confirmação por e-mail."
     ],
-    "prazo": "Solicitar com pelo menos 30 dias de antecedência."
+    "prazo": "Solicitar com pelo menos 30 dias de antecedência.",
+    "palavras_chave": ["férias", "solicitar férias", "folga", "descanso"]
   },
-  "reembolso_viagem": {
+  {
+    "intent": "reembolso_viagem",
     "descricao": "Procedimento para reembolso de despesas de viagem a trabalho.",
     "etapas": [
       "Guardar todos os comprovantes de despesas.",
@@ -27,18 +32,22 @@
       "Enviar para aprovação do gestor.",
       "Após aprovação, o RH processa o pagamento."
     ],
-    "prazo": "Reembolsos devem ser solicitados em até 15 dias após a viagem."
+    "prazo": "Reembolsos devem ser solicitados em até 15 dias após a viagem.",
+    "palavras_chave": ["reembolso", "viagem", "despesas", "gastos", "comprovantes"]
   },
-  "beneficios": {
+  {
+    "intent": "beneficios",
     "descricao": "Informações sobre os benefícios oferecidos aos empregados.",
     "etapas": [
       "Consultar o portal interno para lista de benefícios disponíveis.",
       "Para incluir dependentes, enviar documentação ao RH.",
       "Atualizar dados pessoais para manter os benefícios ativos."
     ],
-    "prazo": "Atualizações devem ser feitas em até 10 dias úteis."
+    "prazo": "Atualizações devem ser feitas em até 10 dias úteis.",
+    "palavras_chave": ["benefícios", "plano de saúde", "vale alimentação", "dependentes"]
   },
-  "politica_interna": {
+  {
+    "intent": "politica_interna",
     "descricao": "Resumo das principais políticas internas da empresa.",
     "etapas": [
       "Cumprir o código de conduta da empresa.",
@@ -46,8 +55,7 @@
       "Respeitar os processos de comunicação interna.",
       "Participar dos treinamentos obrigatórios."
     ],
-    "prazo": "Políticas devem ser consultadas regularmente."
+    "prazo": "Políticas devem ser consultadas regularmente.",
+    "palavras_chave": ["política", "conduta", "regras", "normas", "regulamento"]
   }
-}
-
-  
+]
