@@ -1,0 +1,39 @@
+[
+  {
+    "timestamp": "2025-05-20T10:44:40.422681",
+    "mensagem": "ola vou viajar de férias",
+    "resposta": "Processo para solicitar férias no sistema da Vale.\n\nPassos:\n1. Entre no portal RH da Vale.\n2. Clique em 'Férias' > 'Nova Solicitação'.\n3. Escolha o período e envie para aprovação do gestor.\n\nPrazo: Deve ser solicitada com no mínimo 30 dias de antecedência.",
+    "origem": "banco"
+  },
+  {
+    "timestamp": "2025-05-20T10:45:12.460052",
+    "mensagem": "viagem ",
+    "resposta": "Olá! Você está pronto para solicitar férias?\n\nPara solicitar férias, siga os seguintes passos:\n\n1. Entre no portal RH da Vale.\n2. Clique em 'Férias' > 'Nova Solicitação'.\n3. Selecione o período de sua viagem.\n4. Envie sua solicitação para o gestor.\n\nA solicitação deve ser enviada com pelo menos 30 dias de antecedência.\n\nSe você tiver dúvidas, acesse o portal RH ou entre em contato com nosso suporte técnico.",
+    "origem": "ollama",
+    "prompt": "Você é um assistente virtual corporativo da empresa Vale. \nAjude os empregados a realizarem tarefas internas, consultarem informações, entenderem processos e automatizarem ações básicas. \nSeja formal, direto e sempre útil.\n\nUsuário: ola vou viajar de férias\nAssistente: Processo para solicitar férias no sistema da Vale.\n\nPassos:\n1. Entre no portal RH da Vale.\n2. Clique em 'Férias' > 'Nova Solicitação'.\n3. Escolha o período e envie para aprovação do gestor.\n\nPrazo: Deve ser solicitada com no mínimo 30 dias de antecedência.\nUsuário: viagem \nAssistente:"
+  },
+  {
+    "timestamp": "2025-05-20T10:52:49.659876",
+    "mensagem": "ola",
+    "resposta": "Olá! Como posso ajudar você hoje?\n\n**Como auxiliar, posso:**\n\n* **Realizar tarefas internas** como gerenciar pedidos, responder perguntas, ajudar com relatórios e realizar pesquisas.\n* **Consultar informações** sobre diversos temas, como procedimentos, políticas e incentivos.\n* **Entender processos** e automatizar tarefas para tornar o trabalho mais eficiente.\n* **Acompanhar o progresso de projetos** e alertar sobre deadlines.\n\nQuero saber mais sobre como posso ajudar você?",
+    "prompt": "Você é um assistente virtual corporativo da empresa Vale. \nAjude os empregados a realizarem tarefas internas, consultarem informações, entenderem processos e automatizarem ações básicas. \nSeja formal, direto e sempre útil.\n\nUsuário: ola\nAssistente:"
+  },
+  {
+    "timestamp": "2025-05-20T10:53:43.103468",
+    "mensagem": "quero pedir férias imediatamente",
+    "resposta": "Olá, para solicitar férias, siga os seguintes passos:\n\n1. Entre na plataforma RH da Vale.\n2. Clique em \"Férias\" > \"Nova Solicitação\".\n3. Escolha o período da sua solicitação e envie para aprovação do gestor.\n4. A solicitação será processada e confirmada dentro dos 30 dias estabelecidos na página.\n\nLembre-se de que a solicitação de férias deve ser feita com antecedência, com pelo menos 30 dias de antecedência.",
+    "prompt": "Resposta enriquecida com base no banco"
+  },
+  {
+    "timestamp": "2025-05-20T10:58:30.945515",
+    "mensagem": "bomm dia",
+    "resposta": "Bom dia!\n\nCom base nas informações fornecidas, podemos garantir que os funcionários continuem atualizados com as informações relevantes do sistema interno.\n\n1. Manter seus dados atualizados no sistema internal é uma tarefa essencial para garantir que eles possam serem encontrados por meio do sistema.\n2. Comunicar as alterações de cargo para o RH e para o gestor direto é importante para garantir que eles são processados de forma correta.\n3. Apresentar documentos oficiais para atualizações cadastrais é uma ação essencial que contribui para garantir que as informações são corretas.\n\nTente manter os dados atualizados e siga as instruções fornecidas para garantir que você esteja conectado e atualizado.\n\nEspero que esta resposta seja útil!",
+    "prompt": "Resposta enriquecida com base no banco"
+  },
+  {
+    "timestamp": "2025-05-20T10:59:31.268001",
+    "mensagem": "bomm dia",
+    "resposta": "Bom dia!\n\nCom base nas informações fornecidas, podemos garantir que os seus dados pessoais e profissionais sejam atualizados de acordo com os prazos estabelecidos.\n\n1. Mantendo os dados pessoais e profissionais atualizados no sistema interno.\n2. Comunicando as alterações de cargo para o RH e o gestor direto de forma oportuna.\n3. Presentar os documentos oficiais necessários para atualizações cadastrais.\n\nLembre-se de que as atualizações devem ser feitas em até 5 dias úteis após a mudança.\n\nSe tiver dúvidas ou quaisquer dúvidas, entre em contato com a equipe de suporte da Vale.",
+    "prompt": "Resposta enriquecida com base no banco"
+  }
+]

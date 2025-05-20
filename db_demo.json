@@ -1,22 +1,53 @@
 {
-    "reembolso_viagem": {
-      "descricao": "Procedimento para solicitar reembolso de despesas em viagens corporativas.",
-      "etapas": [
-        "Acesse o sistema ValeViagens.",
-        "Clique em 'Nova Solicitação de Reembolso'.",
-        "Anexe os comprovantes (passagens, hospedagem, alimentação).",
-        "Submeta para aprovação do gestor direto."
-      ],
-      "prazo": "Solicitações devem ser feitas até 5 dias úteis após o retorno da viagem."
-    },
-    "solicitacao_ferias": {
-      "descricao": "Processo para solicitar férias no sistema da Vale.",
-      "etapas": [
-        "Entre no portal RH da Vale.",
-        "Clique em 'Férias' > 'Nova Solicitação'.",
-        "Escolha o período e envie para aprovação do gestor."
-      ],
-      "prazo": "Deve ser solicitada com no mínimo 30 dias de antecedência."
-    }
+  "perfil_usuario": {
+    "descricao": "Informações gerais sobre o perfil dos empregados da Vale.",
+    "etapas": [
+      "O funcionário deve manter seus dados atualizados no sistema interno.",
+      "Para alterações de cargo, é necessário comunicar o RH e o gestor direto.",
+      "Documentos oficiais devem ser apresentados para atualizações cadastrais."
+    ],
+    "prazo": "Atualizações devem ser feitas em até 5 dias úteis após mudança."
+  },
+  "solicitacao_ferias": {
+    "descricao": "Processo para solicitar férias na empresa Vale.",
+    "etapas": [
+      "O empregado deve preencher o formulário de solicitação no sistema interno.",
+      "O gestor direto deve aprovar a solicitação.",
+      "O RH confirma a aprovação e agenda o período.",
+      "O empregado recebe confirmação por e-mail."
+    ],
+    "prazo": "Solicitar com pelo menos 30 dias de antecedência."
+  },
+  "reembolso_viagem": {
+    "descricao": "Procedimento para reembolso de despesas de viagem a trabalho.",
+    "etapas": [
+      "Guardar todos os comprovantes de despesas.",
+      "Preencher o formulário de reembolso no sistema.",
+      "Anexar os comprovantes no sistema.",
+      "Enviar para aprovação do gestor.",
+      "Após aprovação, o RH processa o pagamento."
+    ],
+    "prazo": "Reembolsos devem ser solicitados em até 15 dias após a viagem."
+  },
+  "beneficios": {
+    "descricao": "Informações sobre os benefícios oferecidos aos empregados.",
+    "etapas": [
+      "Consultar o portal interno para lista de benefícios disponíveis.",
+      "Para incluir dependentes, enviar documentação ao RH.",
+      "Atualizar dados pessoais para manter os benefícios ativos."
+    ],
+    "prazo": "Atualizações devem ser feitas em até 10 dias úteis."
+  },
+  "politica_interna": {
+    "descricao": "Resumo das principais políticas internas da empresa.",
+    "etapas": [
+      "Cumprir o código de conduta da empresa.",
+      "Seguir as normas de segurança e saúde no trabalho.",
+      "Respeitar os processos de comunicação interna.",
+      "Participar dos treinamentos obrigatórios."
+    ],
+    "prazo": "Políticas devem ser consultadas regularmente."
   }
+}
+
   
