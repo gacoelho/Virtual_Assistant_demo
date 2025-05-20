@@ -1,0 +1,22 @@
+{
+    "reembolso_viagem": {
+      "descricao": "Procedimento para solicitar reembolso de despesas em viagens corporativas.",
+      "etapas": [
+        "Acesse o sistema ValeViagens.",
+        "Clique em 'Nova Solicitação de Reembolso'.",
+        "Anexe os comprovantes (passagens, hospedagem, alimentação).",
+        "Submeta para aprovação do gestor direto."
+      ],
+      "prazo": "Solicitações devem ser feitas até 5 dias úteis após o retorno da viagem."
+    },
+    "solicitacao_ferias": {
+      "descricao": "Processo para solicitar férias no sistema da Vale.",
+      "etapas": [
+        "Entre no portal RH da Vale.",
+        "Clique em 'Férias' > 'Nova Solicitação'.",
+        "Escolha o período e envie para aprovação do gestor."
+      ],
+      "prazo": "Deve ser solicitada com no mínimo 30 dias de antecedência."
+    }
+  }
+  
