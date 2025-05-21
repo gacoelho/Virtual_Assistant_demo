@@ -3,7 +3,7 @@ import subprocess
 import os
 import datetime
 import json
-from rapidfuzz import fuzz, process
+from rapidfuzz import fuzz
 
 # Carrega base de dados simulada (JSON)
 
