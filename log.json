@@ -1,50 +1,32 @@
 [
   {
-    "timestamp": "2025-05-20T16:09:52.671657",
-    "mensagem": "ola",
-    "resposta": "Desculpe, não consegui gerar uma resposta.",
-    "prompt": "Você é um assistente virtual corporativo da empresa Vale. \nAjude os empregados a realizarem tarefas internas, consultarem informações, entenderem processos e automatizarem ações básicas. \nSeja formal, direto e sempre útil.\n\nUsuário: ola\nAssistente:"
-  },
-  {
-    "timestamp": "2025-05-20T16:09:56.790551",
-    "mensagem": "pq?",
-    "resposta": "Desculpe, não consegui gerar uma resposta.",
-    "prompt": "Você é um assistente virtual corporativo da empresa Vale. \nAjude os empregados a realizarem tarefas internas, consultarem informações, entenderem processos e automatizarem ações básicas. \nSeja formal, direto e sempre útil.\n\nUsuário: ola\nAssistente: Desculpe, não consegui gerar uma resposta.\nUsuário: pq?\nAssistente:"
-  },
-  {
-    "timestamp": "2025-05-20T16:12:10.091050",
-    "mensagem": "ola",
-    "resposta": "Olá! Como posso ajudar vocês hoje?\n\nPara que podemos começar, por favor, me diga o que eles precisam fazer.",
-    "prompt": "Você é um assistente virtual corporativo da empresa Vale. \nAjude os empregados a realizarem tarefas internas, consultarem informações, entenderem processos e automatizarem ações básicas. \nSeja formal, direto e sempre útil.\n\nUsuário: ola\nAssistente:"
-  },
-  {
-    "timestamp": "2025-05-20T16:12:39.056310",
-    "mensagem": "estou querendo tirar férias",
-    "resposta": "Olá, você está interessado em tirar férias com a Vale?\n\nPara fazer isso, você precisa preencher o formulário de solicitação no sistema interno e aguardar a aprovação do gestor direto.\n\nApós a aprovação, o RH confirmada o processo e agenda o período de férias.\n\nPara garantir a confirmação, você receberá um e-mail com a confirmação.\n\nSe tiver dúvidas, você pode consultar o manual interno ou entrar em contato com a nossa equipe de suporte.",
+    "timestamp": "2025-05-21T12:26:55.030784",
+    "mensagem": "beneficios",
+    "resposta": "**Benefícios**\n\nPara mais informações sobre os benefícios disponíveis, consulte o portal interno ou entre em contato com a equipe de suporte.\n\n**Para incluir dependentes:**\n\nPara incluir dependentes, enviem documentação ao Departamento de Recursos Humanos. Os seguintes documentos são necessários:\n\n* Constancias de filiação\n* Cartas de identificação dos dependentes\n* Informação sobre o cargo do dependente\n\n**Para atualizar dados pessoais:**\n\nPara manter seus benefícios ativos, atualize os dados pessoais no portal interno. O prazo para atualizações é de 10 dias úteis.",
     "prompt": "Resposta gerada com base no banco de dados"
   },
   {
-    "timestamp": "2025-05-20T16:13:51.121297",
-    "mensagem": "quais são as politicas internas da Vale?",
-    "resposta": "Olá! Como seu assistente virtual corporativo da Vale, estou aqui para auxiliar os nossos funcionários na realização das principais políticas internas da empresa.\n\nPara garantir o respeito das políticas, é fundamental cumprir o código de conduta da Vale. Além disso, sigua as normas de segurança e saúde no trabalho, respeite os processos de comunicação interna e participe dos treinamentos obrigatórios.\n\nLembre-se, as políticas são atualizadas regularmente, por isso, é importante que revisitem as novas informações de forma regular.\n\nEspero que essas informações sejam úteis para o seu desempenho.",
+    "timestamp": "2025-05-21T12:29:40.525870",
+    "mensagem": "beneficios",
+    "resposta": "**Benefícios**\n\nOs benefícios oferecidos aos empregados são:\n\n1. Vale alimentação disponível para todos os empregados.\n2. Plano de saúde obrigatório para todos os empregados.\n3. Seguro de vida opcional, mas recomendado.\n4. Vale transporte solicitado mensalmente pelo empregado.\n5. Vale cultura disponível para todos os empregados.\n6. Auxílio creche disponível para empregados com filhos menores de 12 anos.\n7. Plano odontológico opcional com desconto em folha.",
     "prompt": "Resposta gerada com base no banco de dados"
   },
   {
-    "timestamp": "2025-05-20T16:15:28.945187",
-    "mensagem": "oi",
-    "resposta": "Olá! Como posso ajudar vocês hoje?\n\nPara fazer isso, por favor, me diga o que eles precisam fazer.",
-    "prompt": "Você é um assistente virtual corporativo da empresa Vale. \nAjude os empregados a realizarem tarefas internas, consultarem informações, entenderem processos e automatizarem ações básicas. \nSeja formal, direto e sempre útil.\n\nUsuário: ola\nAssistente: Olá! Como posso ajudar vocês hoje?\n\nPara que podemos começar, por favor, me diga o que eles precisam fazer.\nUsuário: estou querendo tirar férias\nAssistente: Olá, você está interessado em tirar férias com a Vale?\n\nPara fazer isso, você precisa preencher o formulário de solicitação no sistema interno e aguardar a aprovação do gestor direto.\n\nApós a aprovação, o RH confirmada o processo e agenda o período de férias.\n\nPara garantir a confirmação, você receberá um e-mail com a confirmação.\n\nSe tiver dúvidas, você pode consultar o manual interno ou entrar em contato com a nossa equipe de suporte.\nUsuário: quais são as politicas internas da Vale?\nAssistente: Olá! Como seu assistente virtual corporativo da Vale, estou aqui para auxiliar os nossos funcionários na realização das principais políticas internas da empresa.\n\nPara garantir o respeito das políticas, é fundamental cumprir o código de conduta da Vale. Além disso, sigua as normas de segurança e saúde no trabalho, respeite os processos de comunicação interna e participe dos treinamentos obrigatórios.\n\nLembre-se, as políticas são atualizadas regularmente, por isso, é importante que revisitem as novas informações de forma regular.\n\nEspero que essas informações sejam úteis para o seu desempenho.\nUsuário: oi\nAssistente:"
+    "timestamp": "2025-05-21T12:31:35.528316",
+    "mensagem": "politica interna e agendar férias ",
+    "resposta": "**Resposta:**\n\nObrigatório preencher o formulário de solicitação na plataforma interna, e o gestor direto aprovar a solicitação. A confirmação do RH garante o agendamento do período.",
+    "prompt": "Resposta gerada com base no banco de dados"
   },
   {
-    "timestamp": "2025-05-20T16:16:43.643988",
-    "mensagem": "vou viajar a trabalho pode me ajudar?",
-    "resposta": "Olá! Está feliz que você esteja interessado em tirar férias com a Vale.\n\nPara fazer isso, você precisa preencher o formulário de solicitação no sistema interno e aguardar a aprovação do gestor direto.\n\nApós a aprovação, o RH confirmada o processo e agenda o período de férias.\n\nPara garantir a confirmação, você receberá um e-mail com a confirmação.\n\nSe tiver dúvidas, você pode consultar o manual interno ou entrar em contato com a nossa equipe de suporte.",
-    "prompt": "Você é um assistente virtual corporativo da empresa Vale. \nAjude os empregados a realizarem tarefas internas, consultarem informações, entenderem processos e automatizarem ações básicas. \nSeja formal, direto e sempre útil.\n\nUsuário: estou querendo tirar férias\nAssistente: Olá, você está interessado em tirar férias com a Vale?\n\nPara fazer isso, você precisa preencher o formulário de solicitação no sistema interno e aguardar a aprovação do gestor direto.\n\nApós a aprovação, o RH confirmada o processo e agenda o período de férias.\n\nPara garantir a confirmação, você receberá um e-mail com a confirmação.\n\nSe tiver dúvidas, você pode consultar o manual interno ou entrar em contato com a nossa equipe de suporte.\nUsuário: quais são as politicas internas da Vale?\nAssistente: Olá! Como seu assistente virtual corporativo da Vale, estou aqui para auxiliar os nossos funcionários na realização das principais políticas internas da empresa.\n\nPara garantir o respeito das políticas, é fundamental cumprir o código de conduta da Vale. Além disso, sigua as normas de segurança e saúde no trabalho, respeite os processos de comunicação interna e participe dos treinamentos obrigatórios.\n\nLembre-se, as políticas são atualizadas regularmente, por isso, é importante que revisitem as novas informações de forma regular.\n\nEspero que essas informações sejam úteis para o seu desempenho.\nUsuário: oi\nAssistente: Olá! Como posso ajudar vocês hoje?\n\nPara fazer isso, por favor, me diga o que eles precisam fazer.\nUsuário: vou viajar a trabalho pode me ajudar?\nAssistente:"
+    "timestamp": "2025-05-21T12:32:04.415722",
+    "mensagem": "politica interna ",
+    "resposta": "**Resposta:**\n\nOlá, sua consulta sobre as principais políticas internas da empresa está bem-contada.\n\nPara garantir a segurança e a saúde no trabalho, é importante cumprir os seguintes passos:\n\n1. Seja um profissional responsável e respeite os procedimentos de segurança.\n2. Seja consciente da comunicação interna, compreenda as regras de privacidade e adhere a elas.\n3. Participe de todos os treinamentos e materiais de treinamento disponíveis.\n\nEspero que essas informações sejam úteis para a sua compreensão das principais políticas internas da empresa.",
+    "prompt": "Resposta gerada com base no banco de dados"
   },
   {
-    "timestamp": "2025-05-20T16:17:18.784764",
-    "mensagem": "não é férias é a trabalho",
-    "resposta": "Olá, o usuário.\n\nCom base nas informações fornecidas, o processo de solicitação de férias na empresa Vale não é um processo de férias.\n\nA solicitação de férias deve ser feita pelo próprio empregado através do sistema interno.\n\nA empresa Vale não pode aprovar ou confirmar a solicitação de férias.\n\nSe você tiver dúvidas sobre como realizar a solicitação, ou se você precisar de esclarecimento sobre outros processos internos, entre em contato com o suporte técnico da empresa Vale.",
+    "timestamp": "2025-05-21T12:35:59.185606",
+    "mensagem": "viagem a trabalho",
+    "resposta": "**Resposta:**\n\nOlá, o usuário.\n\nA ordem para solicitar um reembolso de despesas de viagem a trabalho está completa. Se você possui os comprovantes de suas despesas, preencha o formulário de reembolso e anexe os mesmos ao sistema. Certifique-se de enviar o formulário para aprovação do gestor dentro de 15 dias da viagem.\n\nApós a aprovação, o RH processará o pagamento e você receberá um novo saldo no seu conta.",
     "prompt": "Resposta gerada com base no banco de dados"
   }
 ]

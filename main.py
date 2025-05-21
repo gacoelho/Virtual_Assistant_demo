@@ -1,24 +1,16 @@
 import gradio as gr
+import subprocess
 import os
 import datetime
 import json
-from rapidfuzz import fuzz
-from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-
-MODEL_ID = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
-model = AutoModelForCausalLM.from_pretrained(MODEL_ID)
-
-generator = pipeline("text-generation", model=model, tokenizer=tokenizer)
+from rapidfuzz import fuzz, process
 
 # Carrega base de dados simulada (JSON)
 
-SYSTEM_PROMPT = """Você é um assistente virtual corporativo da empresa Vale.
-Ajude os funcionários a entender processos, consultar políticas internas e executar tarefas simples.
-Seja sempre claro, objetivo e educado.
-Nunca invente respostas. Se não souber, diga que não sabe.
-Nunca forneça dados pessoais, confidenciais ou especulativos."""
-
+SYSTEM_PROMPT = """Você é um assistente virtual corporativo da empre. 
+Ajude os empregados a realizarem tarefas internas, consultarem informações, entenderem processos e automatizarem ações básicas. 
+Seja formal, objetivo e sempre útil. sem inventiva de respostas.
+Você não deve fornecer informações pessoais ou confidenciais."""
 
 #fuzzy matching no banco de dados demo
 def buscar_resposta_no_banco(mensagem):
@@ -68,12 +60,24 @@ def salvar_log(mensagem, resposta, prompt=None):
             json.dump(data, f, ensure_ascii=False, indent=2)
             f.truncate()
 
-def gerar_resposta_transformers(prompt):
+def chamar_ollama(prompt):
     try:
-        resposta = generator(prompt, max_new_tokens=200, do_sample=True, temperature=0.7)[0]["generated_text"]
-        return resposta.strip()
+        result = subprocess.run(
+            ["ollama", "run", "gemma:2b"],
+            input=prompt.encode(),
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            timeout=60
+        )
+        resposta = result.stdout.decode().strip()
+        if not resposta:
+            # fallback caso stdout esteja vazio
+            resposta = "Desculpe, não consegui gerar uma resposta."
+        return resposta
+    except subprocess.TimeoutExpired:
+        return "O modelo demorou demais para responder."
     except Exception as e:
-        return f"Erro ao gerar resposta: {str(e)}"
+        return f"Erro ao chamar o modelo: {str(e)}"
 
 def enriquecer_resposta_com_llm(mensagem_usuario, info_base):
     if not isinstance(info_base, dict):
@@ -81,7 +85,7 @@ def enriquecer_resposta_com_llm(mensagem_usuario, info_base):
 
     prompt = f"""{SYSTEM_PROMPT}
 
-    O usuário: "{mensagem_usuario}"
+    O usuário perguntou: "{mensagem_usuario}"
 
     Aqui estão as informações internas relevantes:
 
@@ -95,7 +99,7 @@ def enriquecer_resposta_com_llm(mensagem_usuario, info_base):
     prompt += f"\nPrazo: {info_base.get('prazo', 'Não informado')}\n\n"
     prompt += "Com base nessas informações, formule uma resposta clara, formal e direta para o usuário."
 
-    return gerar_resposta_transformers(prompt)
+    return chamar_ollama(prompt)
 
 def responder_com_llm_direto(mensagem_usuario):
     prompt = f"""
@@ -106,7 +110,7 @@ def responder_com_llm_direto(mensagem_usuario):
     Não há informações estruturadas no banco de dados sobre isso.
     Por favor, responda de forma clara, educada e útil ao usuário.
     """
-    return gerar_resposta_transformers(prompt)
+    return chamar_ollama(prompt)
 
 def chat_with_assistant(message, history):
     resposta_base = buscar_resposta_no_banco(message)
@@ -121,15 +125,14 @@ def chat_with_assistant(message, history):
             full_prompt += f"Usuário: {user_msg}\nAssistente: {assistant_msg}\n"
         full_prompt += f"Usuário: {message}\nAssistente:"
 
-        resposta = gerar_resposta_transformers(full_prompt)
+        resposta = chamar_ollama(full_prompt)
         salvar_log(message, resposta, prompt=full_prompt)
 
     return resposta
 
 gr.ChatInterface(
     fn=chat_with_assistant,
-    title="💼 Assistente Virtual - Vale",
-    description="Converse com o assistente da Vale para apoio em processos e tarefas internas.",
+    title="💼 Assistente Virtual",
+    description="Converse com o assistente para apoio em processos e tarefas internas.",
     theme=gr.themes.Soft(primary_hue="blue", font="monospace")
 ).launch()
-

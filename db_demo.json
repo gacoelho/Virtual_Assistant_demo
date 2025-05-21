@@ -1,7 +1,7 @@
 [
   {
     "intent": "perfil_usuario",
-    "descricao": "Informações gerais sobre o perfil dos empregados da Vale.",
+    "descricao": "Informações gerais sobre o perfil dos empregados.",
     "etapas": [
       "O funcionário deve manter seus dados atualizados no sistema interno.",
       "Para alterações de cargo, é necessário comunicar o RH e o gestor direto.",
@@ -12,7 +12,7 @@
   },
   {
     "intent": "solicitacao_ferias",
-    "descricao": "Processo para solicitar férias na empresa Vale.",
+    "descricao": "Processo para solicitar férias na empresa.",
     "etapas": [
       "O empregado deve preencher o formulário de solicitação no sistema interno.",
       "O gestor direto deve aprovar a solicitação.",
@@ -39,12 +39,16 @@
     "intent": "beneficios",
     "descricao": "Informações sobre os benefícios oferecidos aos empregados.",
     "etapas": [
-      "Consultar o portal interno para lista de benefícios disponíveis.",
-      "Para incluir dependentes, enviar documentação ao RH.",
-      "Atualizar dados pessoais para manter os benefícios ativos."
+      "Vale alimentação: disponível para todos os empregados.",
+      "Plano de saúde: inscrição obrigatória para todos os empregados.",
+      "Seguro de vida: opcional, mas recomendado.",
+      "Vale transporte: solicitado mensalmente pelo empregado.",
+      "Vale cultura: disponível para todos os empregados.",
+      "Auxílio creche: disponível para empregados com filhos menores de 12 anos.",
+      "Plano odontológico: opcional, com desconto em folha."
     ],
     "prazo": "Atualizações devem ser feitas em até 10 dias úteis.",
-    "palavras_chave": ["benefícios", "plano de saúde", "vale alimentação", "dependentes"]
+    "palavras_chave": ["benefícios", "plano de saúde", "alimentação", "dependentes"]
   },
   {
     "intent": "politica_interna",
